@@ -22,9 +22,12 @@ namespace Desloquei
                     CadastrarMotorista();
                     break;                  
 
-            }
+            }          
             
-            static void CadastrarUsuario()
+
+        }
+        
+        static void CadastrarUsuario()
             {
                 Usuario a = new Usuario();
 
@@ -94,7 +97,5 @@ namespace Desloquei
                 Console.WriteLine();
 
             }
-
-        }
     }
 }
